@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=M+PLUS+1:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.family-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.family-mplus {
+  font-family: "M PLUS 1", sans-serif;
+}
+
+.family-garamond {
+  font-family: "EB Garamond", serif;
+}
