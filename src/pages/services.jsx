@@ -3,17 +3,17 @@ import Values from "../sections/values"
 const services = () => {
   return (
     <div>
-      <div className="h-[80vh] services family-montserrat">
+      <div className="h-[80vh]  services family-montserrat">
      
         <div className="overlay">
-          <div className="lg:w-1/2  w-full lg:ml-24 md:ml-12  ml-5 flex flex-col gap-5 text-white items-start justify-center h-full">
+          <div className="lg:w-1/2 h-full w-full lg:pl-24 pl-5 flex flex-col gap-5 text-white items-start justify-center ">
             <h1 className="text-5xl font-semibold">Services</h1>
             <p className="text-xl">More than just a concierge service, Carpentum Lifestyle Management has built a 360-degree lifestyle offering dedicated by the needs and wants of its clients.</p>
           </div>
         </div>
       </div>
-      <div className='lg:w-[85%] w-full my-12  mx-auto flex flex-wrap items-center'>
-        <div className='lg:w-1/2 w-full'>
+      <div className='lg:w-[85%] w-full my-12 mx-auto flex flex-wrap items-center text-center lg:text-left'>
+        <div className='lg:w-1/2 px-5 w-full'>
          <h1 className="text-3xl font-semibold">More than Luxury</h1>
         </div>
         <div className='lg:w-1/2 p-5 w-full text-lg text-gray-600'>
@@ -21,12 +21,10 @@ const services = () => {
         </div>
 
       </div>
-      <div>
 
-      </div>
       <div className='lg:w-[85%] w-full  mx-auto flex flex-wrap items-center'>
         <div className='lg:w-1/2 w-full'>
-          <img src="./service-1.jpg" alt="" loading="lazy" className="w-full h-full object-cover object-center" />
+          <img src="./gal-2.png" alt="" loading="lazy" className="w-full  object-contain object-center" />
         </div>
         <div className='lg:w-1/2 p-5 w-full flex flex-col gap-10 items-start text-lg text-gray-600'>
           <h1 className='lg:text-4xl text-3xl font-semibold text-black'>Travel Design</h1>
@@ -36,7 +34,7 @@ const services = () => {
         </div>
 
       </div>
-      <div className='lg:w-[85%] w-full mx-auto flex flex-wrap items-center'>
+      <div className='lg:w-[85%] w-full mx-auto flex flex-wrap-reverse items-center'>
 
         <div className='lg:w-1/2 w-full flex flex-col p-5 gap-10 items-start text-lg text-gray-600'>
           <h1 className='lg:text-4xl text-3xl font-semibold text-black'>Luxury Cars & Chauffeurs
@@ -47,13 +45,13 @@ const services = () => {
           <button className='px-6 py-2 bg-[#1A5830] text-white'>BOOK CONSULTATION</button>
         </div>
         <div className='lg:w-1/2 w-full'>
-          <img src="./service-2.jpg" alt="" loading="lazy" className="w-full h-full object-cover object-center" />
+          <img src="./service-2.jpg" alt="" loading="lazy" className="w-full  object-cover object-center" />
         </div>
 
       </div>
       <div className='lg:w-[85%] w-full mx-auto flex flex-wrap items-center'>
         <div className='lg:w-1/2 w-full'>
-          <img src="./card-2.png" alt="" loading="lazy" className="w-full h-full object-cover object-center" />
+          <img src="./card-2.png" alt="" loading="lazy" className="w-full  object-cover object-center" />
         </div>
         <div className='lg:w-1/2 p-5 w-full flex flex-col gap-10 items-start text-lg text-gray-600'>
           <h1 className='lg:text-4xl text-3xl font-semibold text-black'>Private Jet & Air Transport
