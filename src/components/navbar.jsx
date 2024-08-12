@@ -1,6 +1,6 @@
 import { NavbarItems } from "../constants";
 import logo from "../../public/logo.png";
-
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="fixed z-10 flex w-full justify-between border-b border-b-secondary px-10">
@@ -10,12 +10,12 @@ const Navbar = () => {
       <div>
         <ul className="flex h-full items-center">
           {NavbarItems.map((item, index) => (
-            <li
+            <NavLink to={item.link}
               key={index}
               className="family-montserrat mx-2 flex h-full cursor-pointer items-center border-b-4 border-b-transparent px-6 text-[1.125rem] font-semibold text-white hover:border-b-secondary"
             >
               {item.title}
-            </li>
+            </NavLink>
           ))}
         </ul>
       </div>

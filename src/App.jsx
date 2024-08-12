@@ -1,18 +1,20 @@
+import { BrowserRouter, Routes,Route } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components";
-// import { Header } from "./sections";
-import { Consultation, Services, Values, Gallery, Header } from "./sections";
+import home from "./pages/home";
+import services from "./pages/services";
+
+
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <Gallery />
-      <Services />
-      <Consultation />
-      <Values />
-    </div>
+    <BrowserRouter>
+    <Navbar/>
+    <Routes>
+      <Route path="/" Component={home}/>
+      <Route path="/services" Component={services}/>
+    </Routes>
+    </BrowserRouter>
   );
 };
 
