@@ -3,7 +3,7 @@ import logo from "../../public/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="border-b-primary bg-primary flex w-full justify-between border-b px-10">
+    <div className="fixed z-10 flex w-full justify-between border-b border-b-secondary px-10">
       <div className="flex h-32 w-32 items-center">
         <img src={logo} alt="site-logo" />
       </div>
@@ -12,7 +12,7 @@ const Navbar = () => {
           {NavbarItems.map((item, index) => (
             <li
               key={index}
-              className="family-montserrat hover:border-b-secondary mx-2 flex h-full cursor-pointer items-center border-b-4 border-b-transparent px-6 text-[1.125rem] font-semibold text-white"
+              className="family-montserrat mx-2 flex h-full cursor-pointer items-center border-b-4 border-b-transparent px-6 text-[1.125rem] font-semibold text-white hover:border-b-secondary"
             >
               {item.title}
             </li>
@@ -20,7 +20,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex items-center">
-        <button className="family-montserrat hover:text-primary border px-3 py-3 font-semibold text-white transition hover:bg-white">
+        <button className="family-montserrat border px-3 py-3 font-semibold text-white transition hover:bg-white hover:text-primary">
           Book Consultation
         </button>
       </div>
