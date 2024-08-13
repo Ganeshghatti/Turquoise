@@ -2,8 +2,9 @@ import React from 'react'
 
 const ContactForm = () => {
     return (
-        <div className='lg:w-2/3 w-full  bg-white  lg:p-24 md:p-12 p-12  shadow-xl '>
-            <h1 className='lg:text-4xl text-3xl  text-gray-800 family-montserrat mb-10 font-semibold'>
+        <div className='flex justify-end lg:-mt-24 -mt-5 px-5 lg:px-0'>
+             <div className='lg:w-[60%] w-full  bg-white  lg:p-24  md:py-12 py-5 px-5  shadow-xl '>
+            <h1 className='lg:text-4xl md:text-3xl text-2xl  text-gray-800 family-montserrat mb-10 font-medium'>
                 Feel free to contact us for more information
             </h1>
             <form className='flex flex-col gap-5'>
@@ -23,6 +24,8 @@ const ContactForm = () => {
                 </div>
             </form>
         </div>
+        </div>
+       
     )
 }
 
