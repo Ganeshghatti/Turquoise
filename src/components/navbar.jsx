@@ -1,19 +1,36 @@
 import { NavbarItems } from "../constants";
 import logo from "../../public/logo.png";
 import { BiMenu } from "react-icons/bi";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleNav = () => {
     setToggle(!toggle);
     console.log(toggle);
   };
 
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+    setIsScrolled(scrollPosition > 500);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      console.log(Window.scrollY);
+    };
+  }, []);
+
   return (
-    <div className="z-10 flex w-full justify-between border-b border-b-white bg-secondary px-10">
+    <div
+      className={`navbar ${isScrolled ? "fixed z-10 flex w-full justify-between border-b border-b-white bg-secondary px-10" : "fixed z-10 flex w-full justify-between border-b border-b-white px-10"}`}
+    >
       <div className="flex h-28 w-28 items-center">
         <img src={logo} alt="site-logo" />
       </div>
@@ -31,7 +48,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="hidden items-center md:flex">
-        <button className="family-montserrat border px-3 py-3 font-semibold text-white transition hover:bg-white hover:text-secondary">
+        <button className="family-montserrat border-2 px-5 py-3 font-semibold text-white transition hover:bg-white hover:text-secondary">
           Book Consultation
         </button>
       </div>

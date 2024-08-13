@@ -1,4 +1,5 @@
 import { Consultation, Services, Values, Gallery, Header } from "../sections";
+import { Footer } from "../components";
 const home = () => {
   return (
     <>
@@ -7,6 +8,7 @@ const home = () => {
       <Services />
       <Consultation />
       <Values />
+      <Footer />
     </>
   );
 };

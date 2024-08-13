@@ -16,11 +16,11 @@ const Gallery = () => {
       <div className="flex h-fit flex-1 flex-col space-y-5 md:flex-row md:space-x-5">
         <div className="mt-10 flex flex-col items-center space-y-4 md:items-end">
           <img
-            src="/gal-1.png"
+            src="/gal-1.jpg"
             className="h-[14.063rem] w-full object-cover md:w-[15.688rem]"
           />
           <img
-            src="/gal-2.png"
+            src="/consult-5.png"
             className="h-[28.125rem] w-full object-cover md:w-[18.813rem]"
           />
         </div>
@@ -30,7 +30,7 @@ const Gallery = () => {
             className="h-[25rem] w-full object-cover md:w-[17.375rem]"
           />
           <img
-            src="/gal-4.png"
+            src="/gal-5.jpg"
             className="h-[11.875rem] w-full object-cover md:w-[17.125rem]"
           />
         </div>
