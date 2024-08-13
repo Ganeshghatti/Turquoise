@@ -1,12 +1,9 @@
 import { NavbarItems } from "../constants";
 import logo from "../../public/logo.png";
-<<<<<<< HEAD
 import { BiMenu } from "react-icons/bi";
 import { useState } from "react";
-
-=======
 import { NavLink } from "react-router-dom";
->>>>>>> e9ad6141f328394fa9279dee23a36376438e82bd
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -16,18 +13,15 @@ const Navbar = () => {
   };
 
   return (
-<<<<<<< HEAD
     <div className="z-10 flex w-full justify-between border-b border-b-white bg-secondary px-10">
-=======
-    <div className="fixed top-0 z-10 flex w-full justify-between border-b border-b-secondary bg-[#149088] px-10">
->>>>>>> e9ad6141f328394fa9279dee23a36376438e82bd
       <div className="flex h-28 w-28 items-center">
         <img src={logo} alt="site-logo" />
       </div>
       <div className="hidden md:block">
         <ul className="flex h-full items-center">
           {NavbarItems.map((item, index) => (
-            <NavLink to={item.link}
+            <NavLink
+              to={item.link}
               key={index}
               className="family-montserrat mx-2 flex h-full cursor-pointer items-center border-b-4 border-b-transparent px-6 text-[1.125rem] font-semibold text-white hover:border-b-secondary"
             >
