@@ -4,7 +4,7 @@ import ServiceFooter from "../components/ServiceFooter"
 const services = () => {
   return (
     <div>
-      <div className="h-[60vh]  services family-montserrat">
+      <div className="h-[90vh]  services family-montserrat">
 
         <div className="overlay">
           <div className="lg:w-1/2 h-full w-full lg:pl-24 pl-5 flex flex-col gap-5 text-white items-start justify-center ">

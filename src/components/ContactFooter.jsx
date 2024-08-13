@@ -23,7 +23,7 @@ const ContactFooter = () => {
 
     ]
     return (
-        <div className='bg-[#F8F8F8] py-24 mt-24'>
+        <div className='bg-[#F8F8F8] py-24 '>
             <div className='flex flex-col gap-10'>
                 <h1 className='text-3xl md:text-4xl text-center px-5'>Where You Can Find Us</h1>
                 <div className='flex flex-wrap text-center'>
