@@ -27,21 +27,21 @@ export const CardItems = [
     title: "Travel Design",
     desc: "Welcome to our world of luxury tailor-made travel. Our dedicated global network of travel specialists unearth the most amazing destinations and curate bespoke travel experiences.",
     link: "#",
-    image: "/public/card.png",
+    image: "/card.png",
   },
   {
     id: 1,
     title: "Luxury Cars & Chauffeurs",
     desc: "Sit back, relax and let Carpentum Lifestyle Management handle the needed transportation during your trip.",
     link: "#",
-    image: "/public/card-2.png",
+    image: "/card-2.png",
   },
   {
     id: 2,
     title: "Private Jet & Air Transport",
     desc: "We are delighted to handle your flight bookings and to manage your exclusive travel on luxury jets all over the world.",
     link: "#",
-    image: "/public/card-3.png",
+    image: "/card-3.png",
   },
 ];
 
@@ -63,5 +63,51 @@ export const ValueData = [
     title: "Passion",
     subtitle: "LUXURIOUS CUSTOM SERVICE",
     desc: "We are constantly reinventing the service of tomorrow and investing in new technologies to continually improve customer experience. We are on the lookout for new usages of technology so we can always be one step ahead, anticipate client needs and achieve bold goals. ",
+  },
+];
+
+export const FooterOne = [
+  {
+    id: 0,
+    title: "Home",
+    link: "/home",
+  },
+  {
+    id: 1,
+    title: "About",
+    link: "/about",
+  },
+  {
+    id: 2,
+    title: "Services",
+    link: "/services",
+  },
+  {
+    id: 3,
+    title: "Contact",
+    link: "/contact",
+  },
+];
+
+export const FooterTwo = [
+  {
+    id: 0,
+    title: "Refund Policy",
+    link: "/refund-policy",
+  },
+  {
+    id: 1,
+    title: "Privacy Policy",
+    link: "/privacy-policy",
+  },
+  {
+    id: 2,
+    title: "Terms and Conditions",
+    link: "/terms-conditions",
+  },
+  {
+    id: 3,
+    title: "News and Updates",
+    link: "/news-updates",
   },
 ];
