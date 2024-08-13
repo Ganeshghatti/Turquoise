@@ -13,7 +13,9 @@ const App = () => {
         <Route path="/" Component={home} />
         <Route path="/services" Component={services} />
       </Routes>
+
       <Footer/>
+
     </BrowserRouter>
   );
 };

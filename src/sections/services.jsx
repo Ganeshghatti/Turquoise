@@ -4,7 +4,7 @@ import { CardItems } from "../constants";
 const Services = () => {
   return (
     <div className="py-10">
-      <Heading title={"Our Services"} className={"px-10 text-left"} />
+      <Heading title={"Our Services"} className={"px-10 md:text-left"} />
       <div className="flex flex-wrap items-center justify-center py-10">
         {CardItems.map((item, index) => (
           <Card
