@@ -3,6 +3,8 @@ import "./App.css";
 import { Navbar } from "./components";
 import home from "./pages/home";
 import services from "./pages/services";
+import Footer from "./components/footer";
+import Contact from "./pages/contact";
 
 const App = () => {
   return (
@@ -11,7 +13,11 @@ const App = () => {
       <Routes>
         <Route path="/" Component={home} />
         <Route path="/services" Component={services} />
+        <Route path="/contact" Component={Contact} />
       </Routes>
+
+      <Footer/>
+
     </BrowserRouter>
   );
 };
