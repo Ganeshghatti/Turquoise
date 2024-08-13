@@ -1,19 +1,18 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-
-import { Consultation, Services, Values, Gallery } from "./sections";
-import { Footer, Navbar } from "./components";
+import { Navbar } from "./components";
+import home from "./pages/home";
+import services from "./pages/services";
 
 const App = () => {
   return (
-    <div>
+    <BrowserRouter>
       <Navbar />
-      {/* <Header /> */}
-      <Gallery />
-      <Services />
-      <Consultation />
-      <Values />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" Component={home} />
+        <Route path="/services" Component={services} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
