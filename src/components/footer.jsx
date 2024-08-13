@@ -1,5 +1,6 @@
 import { BsInstagram, BsTwitterX } from "react-icons/bs";
 import { FooterOne, FooterTwo } from "../constants";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,7 +22,7 @@ const Footer = () => {
                 key={index}
                 className="family-montserrat cusror-pointer list-none text-center font-medium text-white md:text-left"
               >
-                {item.title}
+               <Link to={item.link}> {item.title}</Link>
               </li>
             ))}
           </div>
