@@ -1,17 +1,18 @@
 import "./App.css";
-import { Navbar } from "./components";
-// import { Header } from "./sections";
-import { Consultation, Services, Values, Gallery, Header } from "./sections";
+
+import { Consultation, Services, Values, Gallery } from "./sections";
+import { Footer, Navbar } from "./components";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Header />
+      {/* <Header /> */}
       <Gallery />
       <Services />
       <Consultation />
       <Values />
+      <Footer />
     </div>
   );
 };

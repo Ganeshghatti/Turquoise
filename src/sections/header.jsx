@@ -3,7 +3,7 @@ const Header = () => {
     <div className="relative">
       <img
         src={"../../public/header.png"}
-        className="h-full w-full brightness-50"
+        className="h-[40rem] w-full brightness-50"
       />
       <div className="absolute bottom-0 top-56 ml-8 w-[40rem] space-y-4">
         <h1 className="family-garamond my-auto pt-10 text-[4.5rem] font-bold text-white">
