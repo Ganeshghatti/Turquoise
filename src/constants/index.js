@@ -17,7 +17,7 @@ export const NavbarItems = [
   {
     id: 3,
     title: "Contact Us",
-    link: "/contacts",
+    link: "/contact",
   },
 ];
 
@@ -70,7 +70,7 @@ export const FooterOne = [
   {
     id: 0,
     title: "Home",
-    link: "/home",
+    link: "/",
   },
   {
     id: 1,

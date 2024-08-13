@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div className="relative">
       <img
-        src={"../../public/header.png"}
+        src={"/header.png"}
         className="h-[40rem] w-full brightness-50"
       />
       <div className="absolute bottom-0 top-56 ml-8 w-[40rem] space-y-4">

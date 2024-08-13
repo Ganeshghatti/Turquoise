@@ -24,7 +24,7 @@ const services = () => {
 
       <div className='lg:w-[85%] w-full  mx-auto flex flex-wrap items-center'>
         <div className='lg:w-1/2 w-full'>
-          <img src="./service-1.jpg" alt="" loading="lazy" className="w-full  object-contain object-center" />
+          <img src="/service-1.jpg" alt="" loading="lazy" className="w-full  object-contain object-center" />
         </div>
         <div className='lg:w-1/2 p-5 w-full flex flex-col gap-10 items-start text-lg text-gray-600'>
           <h1 className='lg:text-4xl text-3xl font-semibold text-black family-garamond'>Travel Design</h1>
