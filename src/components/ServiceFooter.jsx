@@ -1,12 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const ServiceFooter = () => {
   return (
-    <div className='h-[40vh] flex md:flex-row flex-col service-footer  md:justify-evenly justify-center gap-10 items-center w-full bg-[#149088] mt-12'>
-      <h1 className='md:text-5xl text-3xl text-white text-center md:text-left'>Your luxury <br className='md:block hidden' />concierge, awaits.</h1>
-      <button className='px-12 py-4 bg-white text-gray-800'>BOOK YOUR CONSULTATION</button>
+    <div className="service-footer mt-12 flex h-[40vh] w-full flex-col items-center justify-center gap-10 bg-[#149088] md:flex-row md:justify-evenly">
+      <h1 className="text-center text-3xl text-white md:text-left md:text-5xl">
+        Your luxury <br className="hidden md:block" />
+        concierge, awaits.
+      </h1>
+      <button className="family-montserrat bg-white px-12 py-4 font-bold text-gray-800 transition hover:bg-[#149088] hover:text-white">
+        BOOK YOUR CONSULTATION
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default ServiceFooter
+export default ServiceFooter;

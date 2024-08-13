@@ -8,7 +8,6 @@ const home = () => {
       <Services />
       <Consultation />
       <Values />
-      <Footer />
     </>
   );
 };

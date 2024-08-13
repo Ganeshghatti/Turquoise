@@ -2,34 +2,54 @@ import { NavbarItems } from "../constants";
 import logo from "../../public/logo.png";
 import { BiMenu } from "react-icons/bi";
 import { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-
   const [isScrolled, setIsScrolled] = useState(false);
-
-  const toggleNav = () => {
-    setToggle(!toggle);
-    console.log(toggle);
-  };
+  const [bgColor, setBgColor] = useState(false);
+  const location = useLocation();
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
-    setIsScrolled(scrollPosition > 500);
+    setIsScrolled(scrollPosition > 0);
+    if (
+      location.pathname === "/" ||
+      location.pathname === "/about" ||
+      location.pathname === "/services"
+    ) {
+      setBgColor(scrollPosition > 650);
+    }
   };
 
   useEffect(() => {
+    const currentPath = location.pathname;
+    if (currentPath === "/contact" || currentPath === "/book-consultation") {
+      setBgColor(true);
+    } else if (
+      currentPath === "/" ||
+      currentPath === "/about" ||
+      currentPath === "/services"
+    ) {
+      setBgColor(false);
+    }
+
     window.addEventListener("scroll", handleScroll);
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      console.log(Window.scrollY);
     };
-  }, []);
+  }, [location.pathname]);
+
+  const toggleNav = () => {
+    setToggle(!toggle);
+  };
 
   return (
     <div
-      className={`navbar ${isScrolled ? "fixed z-10 flex w-full justify-between border-b border-b-white bg-secondary px-10" : "fixed z-10 flex w-full justify-between border-b border-b-white px-10"}`}
+      className={`navbar fixed z-10 flex w-full justify-between border-b border-b-white px-10 transition-all duration-300 ${
+        isScrolled ? "backdrop-blur-sm" : ""
+      } ${bgColor ? "bg-secondary" : "bg-transparent"}`}
     >
       <div className="flex h-28 w-28 items-center">
         <img src={logo} alt="site-logo" />
