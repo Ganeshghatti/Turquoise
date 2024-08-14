@@ -10,7 +10,7 @@ import { Toaster } from "react-hot-toast";
 const App = () => {
   return (
     <BrowserRouter>
-    <Toaster/>
+    <Toaster containerClassName="family-montserrat"/>
       <Navbar />
       <Routes>
         <Route path="/" Component={home} />

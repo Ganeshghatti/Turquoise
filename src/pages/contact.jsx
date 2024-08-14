@@ -4,7 +4,7 @@ import ContactForm from '../components/ContactForm'
 
 const Contact = () => {
     return (
-        <section className='relative py-24'>
+        <section>
 
             {/* <ContactFooter /> */}
             <div className='text-center py-24 my-24 px-5'>
@@ -18,9 +18,7 @@ const Contact = () => {
 
 
             <ContactForm />
-            <a href="https://wa.me/6206601056" target='_blank' className='fixed -z-1 bottom-5 right-5'>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png" alt="" width={80} />
-            </a>
+           
 
 
         </section>
