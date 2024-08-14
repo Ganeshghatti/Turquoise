@@ -8,7 +8,7 @@ const Consultation = () => {
         <h3 className="family-mplus text-[0.8rem] font-normal uppercase text-secondary md:px-8 md:text-[1.25rem]">
           MORE THAN LUXURY
         </h3>
-        <h1 className="family-montserrat text-center text-xl font-normal text-black md:text-[2.9rem]">
+        <h1 className="family-montserrat text-center text-[1.3rem] font-normal text-black md:text-[2.9rem]">
           Welcome to the world of{" "}
           <span className="font-bold">Turquoise Concierge</span> tourism
           Management
