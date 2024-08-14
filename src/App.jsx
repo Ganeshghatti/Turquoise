@@ -5,10 +5,12 @@ import home from "./pages/home";
 import services from "./pages/services";
 import Footer from "./components/footer";
 import Contact from "./pages/contact";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Toaster/>
       <Navbar />
       <Routes>
         <Route path="/" Component={home} />
