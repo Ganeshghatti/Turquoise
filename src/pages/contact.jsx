@@ -26,7 +26,7 @@ const Contact = () => {
             <a
                 className='fixed bottom-8 right-8 w-12 h-12 bg-[#149088] text-white flex items-center justify-center  rounded-full cursor-pointer animate-bounce' 
                
-                href='https://wa.me/'
+                href={`https://wa.me/${phoneNumber}`}
                 target='_blank'
             >
               <CiChat1 size={25} />
