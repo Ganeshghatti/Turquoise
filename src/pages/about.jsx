@@ -1,129 +1,92 @@
-import Values from "../sections/values";
+import ServiceFooter from "../components/ServiceFooter";
 
 const about = () => {
   return (
     <div>
-      <div className="services family-montserrat h-[80vh]">
+      <div className="about family-montserrat h-screen">
         <div className="overlay">
           <div className="flex h-full w-full flex-col items-start justify-center gap-5 pl-5 text-white lg:w-1/2 lg:pl-24">
-            <h1 className="text-5xl font-semibold">Services</h1>
-            <p className="text-xl">
-              More than just a concierge service, Carpentum Lifestyle Management
-              has built a 360-degree lifestyle offering dedicated by the needs
-              and wants of its clients.
-            </p>
+            <h1 className="text-6xl font-semibold family-garamond">About us</h1>
+            <p className="text-2xl">Turquoise Concierge Tourism</p>
           </div>
         </div>
       </div>
-      <div className="mx-auto my-12 flex w-full flex-wrap items-center text-center lg:w-[85%] lg:text-left">
-        <div className="w-full px-5 lg:w-1/2">
-          <h1 className="family-garamond text-3xl font-semibold">
-            More than Luxury
-          </h1>
-        </div>
-        <div className="w-full p-5 text-lg text-gray-600 lg:w-1/2">
-          <p>
-            In addition to providing bespoke access to day-to-day assistance, it
-            has teams in place to manage everything – just for you.
-          </p>
-        </div>
-      </div>
 
-      <div className="mx-auto flex w-full flex-wrap items-center lg:w-[85%]">
-        <div className="w-full lg:w-1/2">
-          <img
-            src="/service-1.jpg"
-            alt=""
-            loading="lazy"
-            className="w-full object-contain object-center"
-          />
+      <section className="about-section mx-auto my-12 w-full lg:w-[85%] xl:w-[80%]">
+        <div className="my-24 flex flex-wrap items-center text-center lg:text-left">
+          <div className="w-full p-5 lg:w-1/2">
+            <h1 className="text-3xl font-semibold family-montserrat">
+              We Love To Explore New Worldwide Destinations.
+            </h1>
+          </div>
+          <div className="w-full p-5 text-lg text-gray-600 lg:w-1/2 family-montserrat">
+            <p>
+              Once a life time stay experiences, feeling home away from home by
+              our personalized tailor-made services
+            </p>
+          </div>
         </div>
-        <div className="flex w-full flex-col items-start gap-10 p-5 text-lg text-gray-600 lg:w-1/2">
-          <h1 className="family-garamond text-3xl font-semibold text-black lg:text-4xl">
-            Travel Design
-          </h1>
-          <p>
-            Welcome to our world of luxury tailor-made travel. Our dedicated
-            global network of travel specialistsx unearth the most amazing
-            destinations and curate bespoke travel experiences. From luxury
-            hotels to the finest resorts, private islands, and alpine retreats,
-            we plan and curate one-of-a-kind holidays, tailored to personal
-            desires.
-          </p>
-          <p>
-            Our dedicated travel specialists have journeyed across the globe to
-            personally experience the world’s best destinations and travel
-            experiences. From luxury beach resorts and alpine retreats to
-            country houses, desert safaris and treetop escapes, they are experts
-            at creating bespoke travel packages for romantic getaways, special
-            reunions, and honeymoons our customers will treasure forever.
-          </p>
-          <button className="bg-[#149088] px-6 py-2 text-white">
-            BOOK CONSULTATION
-          </button>
+        <div className="my-10 flex flex-col items-center justify-center px-2 md:flex-row">
+          <div className="flex h-fit flex-1 flex-col space-y-5 md:flex-row md:space-x-8">
+            <div className="space-y-8">
+              <img
+                src="/consult-4.png"
+                className="h-1/3 w-full object-cover md:w-[17.125rem]"
+              />
+              <img
+                src="/service-3.png"
+                className="h-3/5 w-full object-cover md:w-[17.375rem]"
+              />
+            </div>{" "}
+            <div className="mt-10 flex flex-col items-center space-y-8 md:items-end">
+              <img
+                src="/service-1.jpg"
+                className="h-[28.125rem] w-full object-cover md:w-[18.813rem]"
+              />
+              <img
+                src="/gal-5.jpg"
+                className="h-[14.063rem] w-full object-cover md:w-[18.813rem]"
+              />
+            </div>
+          </div>{" "}
+          <div className="mb-10 flex flex-1 flex-col items-center justify-center space-y-4 md:mb-0 md:items-start md:px-10">
+            <h1 className="text-semibold family-garamond text-center text-[2.4rem] text-primary md:text-left md:text-[3rem]">
+              Turquoise Concierge Tourism Management
+            </h1>
+            <p className="family-montserrat text-center text-[0.9rem] font-normal text-black md:text-left md:text-[1rem]">
+              Once a life time stay experiences, feeling home away from home by
+              our personalized tailor-made services
+            </p>
+          </div>
+        </div>{" "}
+        <div className="md:my-24 my-12 flex flex-wrap items-center text-center lg:text-left">
+          <div className="w-full p-5 lg:w-1/2 flex justify-center">
+            <h1 className="text-3xl font-semibold family-montserrat">Our Aim</h1>
+          </div>
+          <div className="w-full p-5 text-lg text-gray-600 lg:w-1/2 flex justify-center family-montserrat">
+            <p>
+              As a global bespoke lifestyle company, we’ve built our distinctive
+              identity by prioritizing quality over quantity, by curating the
+              most authentic and inspiring experiences imaginable and by
+              cultivating long lasting relationships with our clients and
+              members around the world.
+            </p>
+          </div>
+        </div>{" "}
+        <div className="md:my-24 my-12 flex md:flex-row flex-col-reverse flex-wrap items-center text-center lg:text-left">
+          <div className="w-full p-5 text-lg text-gray-600 lg:w-1/2 flex justify-center family-montserrat">
+            <p>
+              To bring forth the best in class lifestyle services around the
+              world by striving continually for perfection and offering
+              excellence to our clients.
+            </p>
+          </div>{" "}
+          <div className="w-full p-5 lg:w-1/2 flex justify-center">
+            <h1 className="text-3xl font-semibold family-montserrat">Our Vision</h1>
+          </div>
         </div>
-      </div>
-      <div className="mx-auto flex w-full flex-wrap-reverse items-center lg:w-[85%]">
-        <div className="flex w-full flex-col items-start gap-10 p-5 text-lg text-gray-600 lg:w-1/2">
-          <h1 className="family-garamond text-3xl font-semibold text-black lg:text-4xl">
-            Luxury Cars & Chauffeurs
-          </h1>
-          <p>
-            We, at Carpentum Lifestyle Management work around the clock and
-            around the world to ensure your wishes are always fulfilled. You
-            will take care of the dreams and we will take care of the details.
-          </p>
-          <p>
-            Whatever you want, whenever you want. No matter the size or time of
-            day, or experienced team will always be on hand to produce. We spend
-            our days creating, cultivating & crafting for the world’s elite.
-            Utilising our global partners & international team to provide you
-            with access to the inaccessible.
-          </p>
-          <p>
-            As a Global Lifestyle Management Service provider, we truly
-            understand what it is to provide luxury effortlessly.
-          </p>
-          <button className="bg-[#149088] px-6 py-2 text-white">
-            BOOK CONSULTATION
-          </button>
-        </div>
-        <div className="w-full lg:w-1/2">
-          <img
-            src="./service-2.jpg"
-            alt=""
-            loading="lazy"
-            className="w-full object-cover object-center"
-          />
-        </div>
-      </div>
-      <div className="mx-auto mb-10 flex w-full flex-wrap items-center lg:w-[85%]">
-        <div className="w-full lg:w-1/2">
-          <img
-            src="./service-3.jpg"
-            alt=""
-            loading="lazy"
-            className="w-full object-cover object-center"
-          />
-        </div>
-        <div className="flex w-full flex-col items-start gap-10 p-5 text-lg text-gray-600 lg:w-1/2">
-          <h1 className="family-garamond text-3xl font-semibold text-black lg:text-4xl">
-            Private Jet & Air Transport
-          </h1>
-          <p>
-            Beauty is a gift and wellness is a luxury! Indulge your senses to
-            countless memorable experiences with unforgettable wellness treats
-            at your fingertips ready to be unwrapped.
-          </p>
-          <p>
-            We hold a true passion for wellness, placing your physical,
-            emotional and mental wellbeing at the centre of everything we do.
-          </p>
-          <button className="bg-[#149088] px-6 py-2 text-white">
-            BOOK CONSULTATION
-          </button>
-        </div>
-      </div>
+        <ServiceFooter />
+      </section>
     </div>
   );
 };

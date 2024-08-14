@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Gallery = () => {
   return (
     <div className="my-10 flex flex-col items-center justify-center px-2 md:flex-row md:px-20">
@@ -9,9 +11,12 @@ const Gallery = () => {
           Once a life time stay experiences, feeling home away from home by our
           personalized tailor-made services
         </p>
-        <button className="family-montserrat mt-4 border border-secondary bg-secondary px-5 py-3 text-center font-semibold text-white transition hover:bg-white hover:text-secondary">
-          Read More
-        </button>
+        <Link to="/about">
+          {" "}
+          <button className="family-montserrat mt-4 border border-secondary bg-secondary px-5 py-3 text-center font-semibold text-white transition hover:bg-white hover:text-secondary">
+            Read More
+          </button>
+        </Link>
       </div>
       <div className="flex h-fit flex-1 flex-col space-y-5 md:flex-row md:space-x-5">
         <div className="mt-10 flex flex-col items-center space-y-4 md:items-end">

@@ -1,26 +1,24 @@
 import React from "react";
-import ContactForm from "../components/ContactForm";
 import ContactFooter from "../components/ContactFooter";
+import BookConsultationForm from "../components/BookConsultationForm";
 
-const Contact = () => {
+const bookconsultation = () => {
   return (
     <section className="pt-20">
-      <ContactFooter />
-      <div className="px-5 py-12 mt-8 text-center">
-        <p className="family-montserrat lg:text-xl">
-          Turquoise Concierge Lifestyle Management
-        </p>
+      <div className="mt-8 px-5 py-12 text-center">
+        <p className="family-montserrat lg:text-xl">Free Consultation</p>
         <h1 className="family-garamond text-3xl font-semibold text-gray-800 lg:text-5xl">
-          Your Luxury Concierge, Awaits.
+          Fill up the form and
+          <br /> we will be in touch with you shortly{" "}
         </h1>
       </div>
       {/* <div className='lg:w-[80%] w-full  mx-auto'>
                 <img src="./contact-bg.jpg" alt="contact" className='object-cover object-center' loading='lazy' />
             </div> */}
 
-      <ContactForm />
+      <BookConsultationForm />
     </section>
   );
 };
 
-export default Contact;
+export default bookconsultation;

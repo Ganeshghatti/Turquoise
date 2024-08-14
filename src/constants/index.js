@@ -41,7 +41,7 @@ export const CardItems = [
     title: "Private Jet & Air Transport",
     desc: "We are delighted to handle your flight bookings and to manage your exclusive travel on luxury jets all over the world.",
     link: "/services#private-jet",
-    image: "/service-3.jpg",
+    image: "/service-3.png",
   },
 ];
 

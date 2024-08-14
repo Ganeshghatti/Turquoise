@@ -2,7 +2,7 @@ import { NavbarItems } from "../constants";
 import logo from "../../public/logo.png";
 import { BiMenu } from "react-icons/bi";
 import { useState, useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -60,7 +60,7 @@ const Navbar = () => {
             <NavLink
               to={item.link}
               key={index}
-              className="family-montserrat mx-2 flex h-full cursor-pointer items-center border-b-4 border-b-transparent px-6 text-[1.125rem] font-semibold text-white hover:border-b-secondary"
+              className="family-montserrat mx-2 flex h-full cursor-pointer items-center border-b-4 border-b-transparent px-6 text-base font-semibold text-white hover:border-b-secondary"
             >
               {item.title}
             </NavLink>
@@ -68,9 +68,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="hidden items-center md:flex">
-        <button className="family-montserrat border-2 px-5 py-3 font-semibold text-white transition hover:bg-white hover:text-secondary">
-          Book Consultation
-        </button>
+        {" "}
+        <Link to="/book-consultation">
+          <button className="family-montserrat border-2 px-5 py-3 font-semibold text-white transition hover:bg-white hover:text-secondary">
+            Book Consultation
+          </button>
+        </Link>
       </div>
       <div className="flex items-center md:hidden">
         <button className="text-white">
@@ -88,9 +91,11 @@ const Navbar = () => {
                   {item.title}
                 </NavLink>
               ))}
-              <button className="family-montserrat mx-6 my-2 border px-3 py-3 font-semibold text-white transition hover:bg-white hover:text-secondary">
-                Book Consultation
-              </button>
+              <Link to="/book-consultation">
+                <button className="family-montserrat mx-6 my-2 border px-3 py-3 font-semibold text-white transition hover:bg-white hover:text-secondary">
+                  Book Consultation
+                </button>
+              </Link>
             </ul>
           </div>
         )}

@@ -3,11 +3,11 @@ import ServiceFooter from "../components/ServiceFooter";
 const services = () => {
   return (
     <div>
-      <div className="services family-montserrat h-screen">
+      <div className="services h-screen">
         <div className="overlay">
           <div className="flex h-full w-full flex-col items-start justify-center gap-5 pl-5 text-white lg:w-1/2 lg:pl-24">
-            <h1 className="text-5xl font-semibold">Services</h1>
-            <p className="text-xl">
+            <h1 className="text-6xl font-semibold family-garamond">Services</h1>
+            <p className="text-2xl family-montserrat">
               More than just a concierge service, Carpentum Lifestyle Management
               has built a 360-degree lifestyle offering dedicated by the needs
               and wants of its clients.
@@ -19,16 +19,16 @@ const services = () => {
       <section className="service-section mx-auto my-12 w-full lg:w-[85%] xl:w-[80%]">
         <div className="my-24 flex flex-wrap items-center text-center lg:text-left">
           <div className="w-full p-5 lg:w-1/2">
-            <h1 className="text-3xl font-semibold">More than Luxury</h1>
+            <h1 className="text-3xl font-semibold family-montserrat">More than Luxury</h1>
           </div>
-          <div className="w-full p-5 text-lg text-gray-600 lg:w-1/2">
+          <div className="w-full p-5 text-lg text-gray-600 lg:w-1/2 family-montserrat">
             <p>
               In addition to providing bespoke access to day-to-day assistance,
               it has teams in place to manage everything – just for you.
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap items-center" id="travel-design">
+        <div className="flex flex-wrap items-center family-montserrat" id="travel-design">
           <div className="w-full lg:w-1/2">
             <img
               src="/service-1.jpg"
@@ -38,7 +38,7 @@ const services = () => {
             />
           </div>
           <div className="flex w-full flex-col items-start gap-10 p-5 text-lg text-gray-600 lg:w-1/2 lg:p-10">
-            <h1 className="text-3xl font-semibold text-black lg:text-4xl">
+            <h1 className="text-3xl font-semibold text-black lg:text-4xl ">
               Travel Design
             </h1>
             <p>
@@ -63,7 +63,7 @@ const services = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-wrap-reverse items-center" id="luxury-cars">
+        <div className="flex flex-wrap-reverse items-center family-montserrat" id="luxury-cars">
           <div className="flex w-full flex-col items-start gap-10 p-5 text-lg text-gray-600 lg:w-1/2 lg:p-10">
             <h1 className="text-3xl font-semibold text-black lg:text-4xl">
               Luxury Cars & Chauffeurs
@@ -97,10 +97,10 @@ const services = () => {
             />
           </div>
         </div>
-        <div className="flex flex-wrap items-center" id="private-jets">
+        <div className="flex flex-wrap items-center family-montserrat" id="private-jet">
           <div className="w-full lg:w-1/2">
             <img
-              src="./service-3.jpg"
+              src="./service-3.png"
               alt=""
               loading="lazy"
               className="w-full object-cover object-center"

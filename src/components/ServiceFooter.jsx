@@ -1,15 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceFooter = () => {
   return (
-    <div className="service-footer mt-12 flex h-[40vh] w-full flex-col items-center justify-center gap-10 bg-[#149088] md:flex-row md:justify-evenly">
-      <h1 className="text-center text-3xl text-white md:text-left md:text-5xl">
+    <div className="service-footer mx-auto mt-12 flex h-[40vh] w-11/12 flex-col items-center justify-center gap-10 bg-[#149088] md:w-full md:flex-row md:justify-evenly">
+      <h1 className="family-garamond text-center text-3xl text-white md:text-left md:text-5xl">
         Your luxury <br className="hidden md:block" />
         concierge, awaits.
       </h1>
-      <button className="family-montserrat bg-white px-12 py-4 font-bold text-gray-800 transition hover:bg-[#149088] hover:text-white">
-        BOOK YOUR CONSULTATION
-      </button>
+      <Link to="/book-consultation" className="flex justify-center">
+        <button className="family-montserrat mx-auto w-3/4 bg-white px-12 py-4  font-semibold text-gray-600 transition hover:bg-[#149088] hover:text-white md:w-full">
+          BOOK YOUR CONSULTATION
+        </button>
+      </Link>
     </div>
   );
 };
