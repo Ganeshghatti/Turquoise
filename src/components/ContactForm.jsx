@@ -78,7 +78,7 @@ const ContactForm = () => {
                     <div className="flex items-center justify-end">
                         <button
                             type="submit"
-                            className={`px-12 leading-relaxed font-semibold text-lg py-2 text-white bg-green-800 hover:bg-green-900 transition-colors duration-200 ${
+                            className={`px-12 leading-relaxed font-semibold text-lg py-2 text-white bg-[#149088] hover:bg-[#054847] transition-colors duration-200 ${
                                 loading ? 'cursor-not-allowed opacity-50' : ''
                             }`}
                             disabled={loading} 
