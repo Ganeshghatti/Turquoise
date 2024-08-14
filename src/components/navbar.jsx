@@ -53,22 +53,22 @@ const Navbar = () => {
         </button>
       </div>
       <div className="flex items-center md:hidden">
-        <button className="text-white">
+        <button className={`${toggle ? "z-10 text-secondary" : "text-white"}`}>
           <BiMenu size={32} onClick={toggleNav} />
         </button>
         {toggle && (
-          <div className="absolute right-0 top-28 w-screen bg-secondary py-10">
-            <ul className="flex h-full flex-col items-start">
+          <div className="absolute right-0 top-0 h-screen w-[80%] bg-white py-10">
+            <ul className="my-[16rem] flex flex-col items-center gap-4">
               {NavbarItems.map((item, index) => (
                 <NavLink
                   to={item.link}
                   key={index}
-                  className="family-montserrat flex h-full cursor-pointer items-center border-b-4 border-b-transparent px-6 text-[1.125rem] font-semibold text-white hover:border-b-secondary"
+                  className="family-montserrat flex h-full cursor-pointer items-center border-b-4 border-b-transparent px-6 text-[1.125rem] font-semibold text-secondary hover:border-b-secondary"
                 >
                   {item.title}
                 </NavLink>
               ))}
-              <button className="family-montserrat mx-6 my-2 border px-3 py-3 font-semibold text-white transition hover:bg-white hover:text-secondary">
+              <button className="family-montserrat mx-6 my-2 border border-secondary px-3 py-3 font-semibold text-secondary transition hover:bg-secondary hover:text-white">
                 Book Consultation
               </button>
             </ul>
