@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContactForm = () => {
+const BookConsultationForm = () => {
   return (
     <div className="my-8 flex justify-center px-5 lg:px-0">
       <div className="form w-full bg-white px-5 shadow-xl md:py-8 lg:w-[60%] lg:p-12">
@@ -9,7 +9,7 @@ const ContactForm = () => {
         </h1> */}
         <form
           className="flex flex-col gap-5 py-6"
-          action="https://formsubmit.co/jhatnb@gmail.com"
+          action="https://formsubmit.co/ganeshghatti6@gmail.com"
           method="post"
         >
           <div className="flex flex-col gap-5 md:flex-row">
@@ -45,6 +45,20 @@ const ContactForm = () => {
             />
           </div>
           <div className="w-full">
+            <select
+              name="serviceType"
+              className="w-full border px-4 py-2 bg-inherit cursor-pointer"
+              required
+            >
+              <option value="" disabled selected>
+                Select a service
+              </option>
+              <option value="travelDesign">Travel Design</option>
+              <option value="luxuryCars">Luxury Cars & Chauffeurs</option>
+              <option value="privateJet">Private Jet & Air Transport</option>
+            </select>
+          </div>
+          <div className="w-full">
             <textarea
               placeholder="Message"
               name="message"
@@ -66,4 +80,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default BookConsultationForm;

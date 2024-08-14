@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ConsultGallery } from "../components";
 
 const Consultation = () => {
@@ -18,9 +19,12 @@ const Consultation = () => {
           clients. In addition to providing bespoke access to day-to-day
           assistance, it has teams in place to manage everything - just for you.
         </p>
-        <button className="family-montserrat mt-10 border border-secondary bg-secondary px-10 py-3 font-semibold text-white transition hover:bg-white hover:text-secondary">
-          Book Consultation
-        </button>
+        <Link to="/book-consultation">
+          {" "}
+          <button className="family-montserrat mt-10 border border-secondary bg-secondary px-10 py-3 font-semibold text-white transition hover:bg-white hover:text-secondary">
+            Book Consultation
+          </button>
+        </Link>
       </div>
       <ConsultGallery />
     </div>
