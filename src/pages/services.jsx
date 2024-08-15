@@ -35,19 +35,6 @@ const services = () => {
       </div>
 
       <section className="service-section mx-auto my-12 w-full lg:w-[85%] xl:w-[80%]">
-        <div className="my-24 flex flex-wrap items-center text-center lg:text-left">
-          <div className="w-full p-5 lg:w-1/2">
-            <h1 className="family-montserrat text-3xl font-semibold">
-              More than Luxury
-            </h1>
-          </div>
-          <div className="family-montserrat w-full p-5 text-lg text-gray-600 lg:w-1/2">
-            <p>
-              In addition to providing bespoke access to day-to-day assistance,
-              it has teams in place to manage everything – just for you.
-            </p>
-          </div>
-        </div>
         <div
           className="family-montserrat flex flex-wrap items-center"
           id="travel-design"
