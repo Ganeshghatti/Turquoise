@@ -9,8 +9,8 @@ const Contact = () => {
   return (
     <section className="pt-24">
       <ContactFooter />
-      <div className="px-5 py-12 text-center">
-        <p className="family-montserrat lg:text-xl">Turquoise Concierge </p>
+      <div className="px-5 py-10 text-center">
+        <p className="family-montserrat lg:text-xl">Turquoise Concierge Tourism</p>
         <h1 className="family-garamond text-3xl font-semibold text-gray-800 lg:text-5xl">
           Indulge your stay with our tailor-made services{" "}
         </h1>

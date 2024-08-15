@@ -7,7 +7,7 @@ const about = () => {
         <div className="overlay">
           <div className="flex h-full w-full flex-col items-start justify-center gap-5 pl-5 text-white lg:w-1/2 lg:pl-24">
             <h1 className="family-garamond text-6xl font-semibold">About us</h1>
-            <p className="text-2xl">Turquoise Concierge Tourism</p>
+            <p className="text-2xl">Indulge your stay with our tailor-made services</p>
           </div>
         </div>
       </div>
