@@ -26,7 +26,17 @@ const Footer = () => {
               </li>
             ))}
           </div>
-
+{/* 
+          <div className="space-y-4">
+            {FooterTwo.map((item, index) => (
+              <li
+                key={index}
+                className="family-montserrat cusror-pointer list-none text-center font-medium text-white md:text-left"
+              >
+                {item.title}
+              </li>
+            ))}
+          </div> */}
         </div>
       </div>
       <div className="h-full">
