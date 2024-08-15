@@ -28,7 +28,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="flex justify-center px-5 my-24 lg:px-0">
+        <div className="flex justify-center px-5 my-12 lg:px-0">
             <div className="lg:w-[60%] w-full bg-white lg:p-24 md:py-12 py-5 px-5 custom-shadow">
                 <h1 className="lg:text-4xl md:text-3xl text-2xl text-gray-800 font-montserrat mb-10 font-medium">
                     Feel free to contact us for more information

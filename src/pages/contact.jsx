@@ -1,39 +1,37 @@
-import React from 'react'
-import ContactForm from '../components/ContactForm'
-// import ContactFooter from '../components/ContactFooter'
+import React from "react";
+import ContactForm from "../components/ContactForm";
+import ContactFooter from "../components/ContactFooter";
 import { CiChat1 } from "react-icons/ci";
 
 const Contact = () => {
-    const phoneNumber = '+91 94496 10077'; 
+  const phoneNumber = "918976328175";
 
-    
+  return (
+    <section className="pt-24">
+      <ContactFooter />
+      <div className="px-5 py-12 text-center">
+        <p className="family-montserrat lg:text-xl">Turquoise Concierge </p>
+        <h1 className="family-garamond text-3xl font-semibold text-gray-800 lg:text-5xl">
+          Indulge your stay with our tailor-made services{" "}
+        </h1>
+      </div>
 
-    return (
-        <section>
-            {/* <ContactFooter /> */}
-            <div className='text-center py-24 my-24 px-5'>
-                <p className='lg:text-xl family-montserrat'>Carpentum Lifestyle Management</p>
-                <h1 className='family-garamond lg:text-5xl text-3xl text-gray-800 font-semibold'>Your Luxury Concierge, Awaits.</h1>
-            </div>
-
-            {/* <div className='lg:w-[80%] w-full  mx-auto'>
+      {/* <div className='lg:w-[80%] w-full  mx-auto'>
                 <img src="./contact-bg.jpg" alt="contact" className='object-cover object-center' loading='lazy' />
             </div> */}
 
-            <ContactForm />
+      <ContactForm />
 
-            {/* Chat Button */}
-            <a
-                className='fixed bottom-8 right-8 w-12 h-12 bg-[#149088] text-white flex items-center justify-center  rounded-full cursor-pointer animate-bounce' 
-               
-                href={`https://wa.me/${phoneNumber}`}
-                target='_blank'
-            >
-              <CiChat1 size={25} />
-            </a>
-        </section>
-    )
-}
-
+      {/* Chat Button */}
+      <a
+        className="fixed bottom-8 right-8 flex h-12 w-12 animate-bounce cursor-pointer items-center justify-center rounded-full bg-[#149088] text-white"
+        href={`https://wa.me/${phoneNumber}`}
+        target="_blank"
+      >
+        <CiChat1 size={25} />
+      </a>
+    </section>
+  );
+};
 
 export default Contact;
