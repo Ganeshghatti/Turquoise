@@ -5,12 +5,14 @@ import home from "./pages/home";
 import services from "./pages/services";
 import Footer from "./components/footer";
 import Contact from "./pages/contact";
+import { Toaster } from "react-hot-toast";
 import about from "./pages/about";
 import bookconsultation from "./pages/bookconsultation";
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Toaster containerClassName="family-montserrat"/>
       <Navbar />
       <Routes>
         <Route path="/" Component={home} />
