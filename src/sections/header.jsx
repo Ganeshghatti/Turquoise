@@ -3,13 +3,16 @@ const Header = () => {
     <div className="relative">
       <img
         src={"/header.png"}
-        className="h-[40rem] w-full brightness-50"
+        className="h-[40rem] w-full brightness-50 lg:h-screen"
       />
-      <div className="absolute bottom-0 top-56 ml-8 w-[40rem] space-y-4">
-        <h1 className="family-garamond my-auto pt-10 text-[4.5rem] font-bold text-white">
+      <div className="md:item-start absolute bottom-0 top-0 mx-auto flex h-full flex-col justify-center space-y-4 px-5 md:left-20">
+        <h1 className="family-garamond pt-10 text-center text-[4rem] font-bold text-white md:text-left md:text-[4.5rem]">
           Turquoise Concierge
         </h1>
-        <p className="family-mplus text-[2rem] font-normal text-white">
+        <div className="progress-bar h-[2px] w-full bg-white">
+          <div className="progress-fill -mt-1 h-[4px] w-[50%] bg-white" />
+        </div>
+        <p className="family-mplus pt-10 text-center text-[1.4rem] font-normal text-white md:pt-0 md:text-left md:text-[2rem]">
           Indulge your stay with our tailor-made services
         </p>
       </div>

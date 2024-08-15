@@ -1,16 +1,6 @@
 const ConsultGallery = () => {
   return (
-    <div className="my-10 flex h-fit justify-center space-x-5 px-5 md:mx-20">
-      <div className="space-y-2">
-        <img
-          src="/consult-1.png"
-          className="w-[22.4rem] object-cover md:h-[18.875rem]"
-        />
-        <img
-          src="/card-2.png"
-          className="h-[16.813rem] w-[22.4rem] object-cover"
-        />
-      </div>
+    <div className="md:mx-25 my-10 flex h-fit w-full justify-center space-x-2 px-5">
       <div className="hidden md:block">
         <img
           src="/consult-3.png"
@@ -25,6 +15,16 @@ const ConsultGallery = () => {
         <img
           src="/consult-5.png"
           className="h-[32.5rem] w-[26.938rem] object-cover"
+        />
+      </div>
+      <div className="space-y-2">
+        <img
+          src="/consult-1.png"
+          className="w-[22.4rem] object-cover md:h-[18.875rem]"
+        />
+        <img
+          src="/card-2.png"
+          className="h-[16.813rem] w-[22.4rem] object-cover"
         />
       </div>
     </div>

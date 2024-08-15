@@ -26,22 +26,22 @@ export const CardItems = [
     id: 0,
     title: "Travel Design",
     desc: "Welcome to our world of luxury tailor-made travel. Our dedicated global network of travel specialists unearth the most amazing destinations and curate bespoke travel experiences.",
-    link: "#",
-    image: "/card.png",
+    link: "/services#travel-design",
+    image: "/service-1.jpg",
   },
   {
     id: 1,
     title: "Luxury Cars & Chauffeurs",
     desc: "Sit back, relax and let Carpentum Lifestyle Management handle the needed transportation during your trip.",
-    link: "#",
-    image: "/card-2.png",
+    link: "/services#luxury-cars",
+    image: "/service-2.jpg",
   },
   {
     id: 2,
     title: "Private Jet & Air Transport",
     desc: "We are delighted to handle your flight bookings and to manage your exclusive travel on luxury jets all over the world.",
-    link: "#",
-    image: "/card-3.png",
+    link: "/services#private-jet",
+    image: "/service-3.png",
   },
 ];
 
