@@ -9,7 +9,6 @@ const ContactForm = () => {
         e.preventDefault(); 
         setLoading(true); 
 
-       
         const loadingToast = toast.loading('Sending message...');
 
         const form = e.target;
@@ -90,5 +89,6 @@ const ContactForm = () => {
             </div>
         </div>
     );
+}
 
 export default ContactForm;
