@@ -8,11 +8,14 @@ import Contact from "./pages/contact";
 import { Toaster } from "react-hot-toast";
 import about from "./pages/about";
 import bookconsultation from "./pages/bookconsultation";
+import { FaWhatsapp } from "react-icons/fa";
 
 const App = () => {
+  const phoneNumber = "918976328175";
+
   return (
     <BrowserRouter>
-    <Toaster containerClassName="family-montserrat"/>
+      <Toaster containerClassName="family-montserrat" />
       <Navbar />
       <Routes>
         <Route path="/" Component={home} />
@@ -21,7 +24,14 @@ const App = () => {
         <Route path="/contact" Component={Contact} />{" "}
         <Route path="/book-consultation" Component={bookconsultation} />
       </Routes>
-
+      {/* Chat Button */}
+      <a
+        className="fixed bottom-8 right-8 flex h-14 w-14 animate-bounce cursor-pointer items-center justify-center rounded-full bg-[#149088] text-white"
+        href={`https://wa.me/${phoneNumber}`}
+        target="_blank"
+      >
+        <FaWhatsapp  size={30} />
+      </a>
       <Footer />
     </BrowserRouter>
   );
