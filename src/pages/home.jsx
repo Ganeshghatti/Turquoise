@@ -10,9 +10,9 @@ const home = () => {
     <>
       <Header />
       <Gallery />
-      <Services />
-      <Consultation />
+      <Services /> 
       <Values />
+      <Consultation />
     </>
   );
 };

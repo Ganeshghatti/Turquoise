@@ -20,7 +20,7 @@ const about = () => {
       </div>
 
       <section className="about-section mx-auto my-12 w-full lg:w-[85%] xl:w-[80%]">
-        <div className="my-24 flex flex-wrap items-center text-center lg:text-left">
+        {/* <div className="my-24 flex flex-wrap items-center text-center lg:text-left">
           <div className="w-full p-5 lg:w-1/2">
             <h1 className="family-montserrat text-3xl font-semibold">
               We Love To Explore New Worldwide Destinations.
@@ -32,7 +32,7 @@ const about = () => {
               our personalized tailor-made services
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="my-10 flex flex-col items-center justify-center px-2 md:flex-row">
           <div className="flex h-fit flex-1 flex-col space-y-5 md:flex-row md:space-x-8">
             <div className="space-y-8">
