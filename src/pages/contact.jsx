@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ContactForm from "../components/ContactForm";
 import ContactFooter from "../components/ContactFooter";
 
 const Contact = () => {
-
+  useEffect(() => {
+    // Scroll to top when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="pt-24">
       <ContactFooter />

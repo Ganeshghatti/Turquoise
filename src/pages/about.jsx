@@ -1,13 +1,20 @@
+import { useEffect } from "react";
 import ServiceFooter from "../components/ServiceFooter";
 
 const about = () => {
+  useEffect(() => {
+    // Scroll to top when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="about family-montserrat h-screen">
         <div className="overlay">
           <div className="flex h-full w-full flex-col items-start justify-center gap-5 pl-5 text-white lg:w-1/2 lg:pl-24">
             <h1 className="family-garamond text-6xl font-semibold">About us</h1>
-            <p className="text-2xl">Indulge your stay with our tailor-made services</p>
+            <p className="text-2xl">
+              Indulge your stay with our tailor-made services
+            </p>
           </div>
         </div>
       </div>

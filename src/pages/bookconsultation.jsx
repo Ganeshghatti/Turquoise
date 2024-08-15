@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ContactFooter from "../components/ContactFooter";
 import BookConsultationForm from "../components/BookConsultationForm";
 
 const bookconsultation = () => {
+  useEffect(() => {
+    // Scroll to top when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="pt-20">
       <div className="mt-8 px-5 py-12 text-center">

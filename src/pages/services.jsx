@@ -5,11 +5,14 @@ import { useEffect } from "react";
 
 const services = () => {
   const location = useLocation();
+
   useEffect(() => {
-    // Check for the hash in the URL
+    // Scroll to top when the component mounts
+    window.scrollTo(0, 0);
+
+    // Check for the hash in the URL and scroll to the corresponding section
     const hash = location.hash;
     if (hash) {
-      // Find the element with the corresponding ID and scroll into view
       const element = document.querySelector(hash);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
