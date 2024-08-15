@@ -6,8 +6,8 @@ const ContactFooter = () => {
       id: 1,
       image: "./contact-icon-1.png",
       title: "Phone Number",
-      desc: "+91 89763 28175",
-      link: "tel:+918976328175",
+      desc: "+971 56 985 3400",
+      link: "tel:+971569853400",
     },
     // {
     //   id: 2,

@@ -11,7 +11,7 @@ import bookconsultation from "./pages/bookconsultation";
 import { FaWhatsapp } from "react-icons/fa";
 
 const App = () => {
-  const phoneNumber = "918976328175";
+  const phoneNumber = "971569853400";
 
   return (
     <BrowserRouter>
@@ -29,9 +29,11 @@ const App = () => {
         className="fixed bottom-8 right-8 flex h-14 w-14 animate-bounce cursor-pointer items-center justify-center rounded-full bg-[#149088] text-white"
         href={`https://wa.me/${phoneNumber}`}
         target="_blank"
+        rel="noopener noreferrer" // added for security
       >
-        <FaWhatsapp  size={30} />
+        <FaWhatsapp size={30} />
       </a>
+
       <Footer />
     </BrowserRouter>
   );
