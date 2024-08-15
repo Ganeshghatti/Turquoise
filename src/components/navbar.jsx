@@ -52,7 +52,9 @@ const Navbar = () => {
       } ${bgColor ? "bg-secondary" : "bg-transparent"}`}
     >
       <div className="flex h-28 w-28 items-center">
-        <img src={logo} alt="site-logo" />
+        <Link to="/">
+          <img src={logo} alt="site-logo" />
+        </Link>
       </div>
       <div className="hidden md:block">
         <ul className="flex h-full items-center">
