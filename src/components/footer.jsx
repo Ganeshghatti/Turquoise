@@ -22,11 +22,11 @@ const Footer = () => {
                 key={index}
                 className="family-montserrat cusror-pointer list-none text-center font-medium text-white md:text-left"
               >
-               <Link to={item.link}> {item.title}</Link>
+                <Link to={item.link}> {item.title}</Link>
               </li>
             ))}
           </div>
-
+          {/* 
           <div className="space-y-4">
             {FooterTwo.map((item, index) => (
               <li
@@ -36,7 +36,7 @@ const Footer = () => {
                 {item.title}
               </li>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="h-full">
@@ -44,8 +44,20 @@ const Footer = () => {
           Follow Us
         </h1>
         <div className="h-ful flex justify-center space-x-5 text-white">
-          <BsInstagram size={34} />
-          <BsTwitterX size={34} />
+          <a
+            href="https://www.instagram.com/turquoise_concierge?igsh=N2ZscGtvZ2pxNGt1&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsInstagram size={34} />
+          </a>
+          <a
+            href="https://twitter.com/your-twitter-handle" // Add your Twitter link here
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsTwitterX size={34} />
+          </a>
         </div>
       </div>
     </div>

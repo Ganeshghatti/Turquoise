@@ -1,31 +1,38 @@
+import { useEffect } from "react";
 import ServiceFooter from "../components/ServiceFooter";
 
 const about = () => {
+  useEffect(() => {
+    // Scroll to top when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="about family-montserrat h-screen">
         <div className="overlay">
           <div className="flex h-full w-full flex-col items-start justify-center gap-5 pl-5 text-white lg:w-1/2 lg:pl-24">
-            <h1 className="text-6xl font-semibold family-garamond">About us</h1>
-            <p className="text-2xl">Turquoise Concierge Tourism</p>
+            <h1 className="family-garamond text-6xl font-semibold">About us</h1>
+            <p className="text-2xl">
+              Indulge your stay with our tailor-made services
+            </p>
           </div>
         </div>
       </div>
 
       <section className="about-section mx-auto my-12 w-full lg:w-[85%] xl:w-[80%]">
-        <div className="my-24 flex flex-wrap items-center text-center lg:text-left">
+        {/* <div className="my-24 flex flex-wrap items-center text-center lg:text-left">
           <div className="w-full p-5 lg:w-1/2">
-            <h1 className="text-3xl font-semibold family-montserrat">
+            <h1 className="family-montserrat text-3xl font-semibold">
               We Love To Explore New Worldwide Destinations.
             </h1>
           </div>
-          <div className="w-full p-5 text-lg text-gray-600 lg:w-1/2 family-montserrat">
+          <div className="family-montserrat w-full p-5 text-lg text-gray-600 lg:w-1/2">
             <p>
               Once a life time stay experiences, feeling home away from home by
               our personalized tailor-made services
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="my-10 flex flex-col items-center justify-center px-2 md:flex-row">
           <div className="flex h-fit flex-1 flex-col space-y-5 md:flex-row md:space-x-8">
             <div className="space-y-8">
@@ -59,30 +66,37 @@ const about = () => {
             </p>
           </div>
         </div>{" "}
-        <div className="md:my-24 my-12 flex flex-wrap items-center text-center lg:text-left">
-          <div className="w-full p-5 lg:w-1/2 flex justify-center">
-            <h1 className="text-3xl font-semibold family-montserrat">Our Aim</h1>
+        <div className="my-12 flex flex-wrap items-center text-center md:my-24 lg:text-left">
+          <div className="flex w-full justify-center p-5 lg:w-1/2">
+            <h1 className="family-montserrat text-3xl font-semibold">
+              Our Mission
+            </h1>
           </div>
-          <div className="w-full p-5 text-lg text-gray-600 lg:w-1/2 flex justify-center family-montserrat">
+          <div className="family-montserrat flex w-full justify-center p-5 text-lg text-gray-600 lg:w-1/2">
             <p>
-              As a global bespoke lifestyle company, we’ve built our distinctive
-              identity by prioritizing quality over quantity, by curating the
-              most authentic and inspiring experiences imaginable and by
-              cultivating long lasting relationships with our clients and
-              members around the world.
+              Our mission is to curate exceptional, bespoke travel experiences
+              that transcend the ordinary. We are dedicated to providing our
+              clients with unparalleled luxury and personalized service,
+              ensuring that every journey is an unforgettable adventure,
+              meticulously tailored to their desires.
             </p>
           </div>
         </div>{" "}
-        <div className="md:my-24 my-12 flex md:flex-row flex-col-reverse flex-wrap items-center text-center lg:text-left">
-          <div className="w-full p-5 text-lg text-gray-600 lg:w-1/2 flex justify-center family-montserrat">
+        <div className="my-12 flex flex-col-reverse flex-wrap items-center text-center md:my-24 md:flex-row lg:text-left">
+          <div className="family-montserrat flex w-full justify-center p-5 text-lg text-gray-600 lg:w-1/2">
             <p>
-              To bring forth the best in class lifestyle services around the
-              world by striving continually for perfection and offering
-              excellence to our clients.
+              Our vision is to be the world’s premier luxury concierge tourism
+              provider, recognized for our commitment to excellence, innovation,
+              and creating extraordinary experiences. We aspire to redefine the
+              standards of luxury travel by continuously pushing boundaries,
+              inspiring wanderlust, and turning dreams into reality for our
+              discerning clientele
             </p>
           </div>{" "}
-          <div className="w-full p-5 lg:w-1/2 flex justify-center">
-            <h1 className="text-3xl font-semibold family-montserrat">Our Vision</h1>
+          <div className="flex w-full justify-center p-5 lg:w-1/2">
+            <h1 className="family-montserrat text-3xl font-semibold">
+              Our Vision
+            </h1>
           </div>
         </div>
         <ServiceFooter />
