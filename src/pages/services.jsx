@@ -26,9 +26,9 @@ const services = () => {
           <div className="flex h-full w-full flex-col items-start justify-center gap-5 pl-5 text-white lg:w-1/2 lg:pl-24">
             <h1 className="family-garamond text-6xl font-semibold">Services</h1>
             <p className="family-montserrat text-2xl">
-              More than just a concierge service, Carpentum Lifestyle Management
-              has built a 360-degree lifestyle offering dedicated by the needs
-              and wants of its clients.
+              More than a concierge, Turquoise Concierge Tourism provides an
+              all-encompassing lifestyle service, meticulously designed to meet
+              the specific needs and wishes of its clients.
             </p>
           </div>
         </div>
