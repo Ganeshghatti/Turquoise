@@ -12,6 +12,7 @@ const Values = () => {
             title={item.title}
             subtitle={item.subtitle}
             desc={item.desc}
+            icon={item.icon}
           />
         ))}
       </div>

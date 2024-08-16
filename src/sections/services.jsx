@@ -10,7 +10,7 @@ const Services = () => {
           title={"Our Services"}
           className={"px-2 text-center md:text-left"}
         />
-        <div className="flex flex-wrap items-center justify-between px-5 py-10 md:px-0">
+        <div className="flex flex-wrap items-center justify-center gap-4 px-5 py-10 md:px-0">
           {CardItems.map((item, index) => (
             <Card
               key={index}
