@@ -10,7 +10,7 @@ const Services = () => {
           title={"Our Services"}
           className={"px-2 text-center md:text-left"}
         />
-        <div className="flex flex-wrap items-center justify-center gap-4 px-5 py-10 md:px-0">
+        <div className="flex flex-wrap items-center justify-between px-5 py-10 md:px-0 w-full">
           {CardItems.map((item, index) => (
             <Card
               key={index}
@@ -23,7 +23,6 @@ const Services = () => {
         </div>
         <div className="flex w-full justify-center">
           <Link to="/services">
-            {" "}
             <button className="family-montserrat border border-secondary px-10 py-3 font-semibold text-secondary transition hover:bg-secondary hover:text-white">
               FIND MORE
             </button>

@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 const Card = ({ title, desc, link, image }) => {
   return (
-    <div className="relative my-2">
+    <div className="relative my-2 lg:w-[31%]">
       <img src={image} className="h-[32rem] w-full object-cover" />
       <div className="absolute bottom-0 left-0 right-0 flex h-full w-full items-end bg-black/40 p-5">
         <div className="flex h-auto flex-col justify-start space-y-3">

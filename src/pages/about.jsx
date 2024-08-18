@@ -13,7 +13,7 @@ const about = () => {
           <div className="flex h-full w-full flex-col items-start justify-center gap-5 pl-5 text-white lg:w-1/2 lg:pl-24">
             <h1 className="family-garamond text-6xl font-semibold">About us</h1>
             <p className="text-2xl">
-              Indulge your stay with our tailor-made services
+              Indulge your stay with our tailor-made services.
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ const about = () => {
             </h1>
             <p className="family-montserrat text-center text-[0.9rem] font-normal text-black md:text-left md:text-[1rem]">
               Once a life time stay experiences, feeling home away from home by
-              our personalized tailor-made services
+              our personalized tailor-made services.
             </p>
           </div>
         </div>{" "}
@@ -90,7 +90,7 @@ const about = () => {
               and creating extraordinary experiences. We aspire to redefine the
               standards of luxury travel by continuously pushing boundaries,
               inspiring wanderlust, and turning dreams into reality for our
-              discerning clientele
+              discerning clientele.
             </p>
           </div>{" "}
           <div className="flex w-full justify-center p-5 lg:w-1/2">

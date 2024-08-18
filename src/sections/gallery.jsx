@@ -9,7 +9,7 @@ const Gallery = () => {
         </h1>
         <p className="family-montserrat text-center text-[0.9rem] font-normal text-black md:text-left md:text-[1rem]">
           Once a life time stay experiences, feeling home away from home by our
-          personalized tailor-made services
+          personalized tailor-made services.
         </p>
         <Link to="/about">
           {" "}

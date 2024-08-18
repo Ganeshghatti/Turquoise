@@ -15,10 +15,10 @@ const BookConsultationForm = () => {
 
     emailjs
       .sendForm(
-        "service_n8wcu2n",
-        "template_pp4uwyr",
+        "services_cg2pas3",
+        "template_9c536db",
         form,
-        "4GwrW1FWSQlQX8pcH",
+        "my-PT-y_3t48nZjOg",
       )
       .then(
         (result) => {
