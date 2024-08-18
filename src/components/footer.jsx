@@ -51,13 +51,6 @@ const Footer = () => {
           >
             <BsInstagram size={34} />
           </a>
-          <a
-            href="https://twitter.com/your-twitter-handle" // Add your Twitter link here
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <BsTwitterX size={34} />
-          </a>
         </div>
       </div>
     </div>
