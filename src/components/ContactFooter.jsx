@@ -6,8 +6,8 @@ const ContactFooter = () => {
       id: 1,
       image: "./contact-icon-1.png",
       title: "Phone Number",
-      desc: "+971 56 985 3400",
-      link: "tel:+971569853400",
+      desc: "+971 52 385 8844",
+      link: "tel:+971523858844",
     },
     // {
     //   id: 2,
@@ -30,7 +30,7 @@ const ContactFooter = () => {
         <h1 className="family-garamond px-5 text-center text-3xl md:text-4xl">
           Where You Can Find Us
         </h1>
-        <div className="flex flex-wrap text-center justify-center">
+        <div className="flex flex-wrap justify-center text-center">
           {data.map((item) => (
             <div className="w-full p-5 md:w-1/2 lg:w-1/3" key={item.id}>
               <img src={item.image} alt="contact" className="mx-auto" />

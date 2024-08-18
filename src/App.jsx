@@ -11,7 +11,7 @@ import bookconsultation from "./pages/bookconsultation";
 import { FaWhatsapp } from "react-icons/fa";
 
 const App = () => {
-  const phoneNumber = "971569853400";
+  const phoneNumber = "971523858844"; 
 
   return (
     <BrowserRouter>
