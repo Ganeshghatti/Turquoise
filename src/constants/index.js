@@ -28,21 +28,21 @@ export const CardItems = [
     title: "Travel Design",
     desc: "We believe that travel should be a deeply personal and transformative experience. Our Travel Design Services are the cornerstone of our commitment to delivering journeys that are not just luxurious but also uniquely tailored to your individual desires and aspirations.",
     link: "/services#travel-design",
-    image: "/service-1.jpg",
+    image: "/assets/service-1.jpg",
   },
   {
     id: 1,
     title: "Luxury Cars & Chauffeurs",
     desc: "Luxury begins the moment you step out of your door. Our Luxury Cars & Chauffeur Services are designed to provide you with the highest level of comfort, style, and convenience as you travel. ",
     link: "/services#luxury-cars",
-    image: "/service-2.jpg",
+    image: "/assets/service-2.jpg",
   },
   {
     id: 2,
     title: "Private Jet & Air Transport",
     desc: "We understand that time is your most valuable asset, and every moment of your journey should be as luxurious and effortless as your destination. ",
     link: "/services#private-jet",
-    image: "/service-3.png",
+    image: "/assets/service-3.png",
   },
 ];
 

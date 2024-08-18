@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="flex h-full w-full flex-col items-center justify-around space-y-10 bg-secondary p-10 md:flex-row md:items-start">
       <div className="flex w-56 flex-col items-center md:py-0">
-        <img src="/logo.png" className="h-48 w-48 object-contain" />
+        <img src="/assets/logo.png" className="h-48 w-48 object-contain" />
         <p className="family-montserrat md:Text-left text-center text-[1rem] font-medium text-white">
           Indulge your stay with our tailor-made services
         </p>

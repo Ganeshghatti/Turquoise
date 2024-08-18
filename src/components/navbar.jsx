@@ -1,9 +1,9 @@
 import { NavbarItems } from "../constants";
-import logo from "../../public/logo.png";
 import { BiMenu } from "react-icons/bi";
 import { RxCross2 } from "react-icons/rx";
 import { useState, useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
+import logo from "../../public/assets/logo.png"
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);

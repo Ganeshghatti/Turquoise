@@ -41,7 +41,7 @@ const services = () => {
         >
           <div className="w-full lg:w-1/2">
             <img
-              src="/service-1.jpg"
+              src="./assets/service-1.jpg"
               alt=""
               loading="lazy"
               className="w-full object-contain object-center"
@@ -127,7 +127,7 @@ const services = () => {
           </div>
           <div className="w-full lg:w-1/2">
             <img
-              src="./service-2.jpg"
+              src="./assets/service-2.jpg"
               alt=""
               loading="lazy"
               className="w-full object-cover object-center"
@@ -140,7 +140,7 @@ const services = () => {
         >
           <div className="w-full lg:w-1/2">
             <img
-              src="./service-3.png"
+              src="./assets/service-3.png"
               alt=""
               loading="lazy"
               className="w-full object-cover object-center"

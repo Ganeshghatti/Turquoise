@@ -37,21 +37,21 @@ const about = () => {
           <div className="flex h-fit flex-1 flex-col space-y-5 md:flex-row md:space-x-8">
             <div className="space-y-8">
               <img
-                src="/consult-4.png"
+                src="/assets/consult-4.png"
                 className="h-1/3 w-full object-cover md:w-[17.125rem]"
               />
               <img
-                src="/service-3.png"
+                src="/assets/service-3.png"
                 className="h-3/5 w-full object-cover md:w-[17.375rem]"
               />
             </div>{" "}
             <div className="mt-10 flex flex-col items-center space-y-8 md:items-end">
               <img
-                src="/service-1.jpg"
+                src="/assets/service-1.jpg"
                 className="h-[28.125rem] w-full object-cover md:w-[18.813rem]"
               />
               <img
-                src="/gal-5.jpg"
+                src="/assets/gal-5.jpg"
                 className="h-[14.063rem] w-full object-cover md:w-[18.813rem]"
               />
             </div>

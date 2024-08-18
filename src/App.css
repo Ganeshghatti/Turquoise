@@ -3,12 +3,12 @@
 }
 
 .services {
-  background: url("/service-bg.jpg");
+  background: url("/public/assets/service-bg.jpg");
   background-size: cover;
   background-position: center;
 }
 .about {
-  background: url("/about-bg.jpg");
+  background: url("/public/assets/about-bg.jpg");
   background-size: cover;
   background-position: center;
 }

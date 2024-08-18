@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div className="relative">
       <img
-        src={"/header.png"}
+        src={"/assets/header.png"}
         className="h-[40rem] w-full brightness-50 lg:h-screen"
       />
       <div className="md:item-start absolute bottom-0 top-0 mx-auto flex h-full flex-col justify-center space-y-4 px-5 md:left-20">

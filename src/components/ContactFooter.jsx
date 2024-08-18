@@ -4,7 +4,7 @@ const ContactFooter = () => {
   const data = [
     {
       id: 1,
-      image: "./contact-icon-1.png",
+      image: "./assets/contact-icon-1.png",
       title: "Phone Number",
       desc: "+971 52 385 8844",
       link: "tel:+971523858844",
@@ -17,7 +17,7 @@ const ContactFooter = () => {
     // },
     {
       id: 3,
-      image: "./contact-icon-3.png",
+      image: "./assets/contact-icon-3.png",
       title: "Our Email",
       desc: "info@turquoise-tourism.com",
       link: "mailto:info@turquoise-tourism.com",
