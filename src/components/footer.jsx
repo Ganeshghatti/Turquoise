@@ -1,4 +1,4 @@
-import { BsInstagram, BsTwitterX } from "react-icons/bs";
+import { BsInstagram, BsTwitterX, BsLinkedin } from "react-icons/bs";
 import { FooterOne, FooterTwo } from "../constants";
 import { Link } from "react-router-dom";
 
@@ -50,6 +50,13 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <BsInstagram size={34} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/turquoise-concierge-034270336/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsLinkedin size={34} />
           </a>
         </div>
       </div>
