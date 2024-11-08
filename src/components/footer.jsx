@@ -52,7 +52,7 @@ const Footer = () => {
             <BsInstagram size={34} />
           </a>
           <a
-            href="https://www.linkedin.com/in/turquoise-concierge-034270336/"
+            href="https://www.linkedin.com/company/105446783"
             target="_blank"
             rel="noopener noreferrer"
           >
