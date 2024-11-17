@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Consultation, Services, Values, Gallery, Header } from "../sections";
+import { Consultation, Services, Values, Gallery, Header, Partners } from "../sections";
 
 const home = () => {
   useEffect(() => {
@@ -12,6 +12,7 @@ const home = () => {
       <Gallery />
       <Services /> 
       <Values />
+      <Partners/>
       {/* <Consultation /> */}
     </>
   );
