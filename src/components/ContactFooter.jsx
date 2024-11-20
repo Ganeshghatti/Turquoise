@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 
 const ContactFooter = () => {
@@ -9,12 +10,13 @@ const ContactFooter = () => {
       desc: "+971 52 385 8844",
       link: "tel:+971523858844",
     },
-    // {
-    //   id: 2,
-    //   image: "./contact-icon-2.png",
-    //   title: "Our Address",
-    //   desc: "Emirates Towers, Level 42 Dubai, United Arab Emirates",
-    // },
+    {
+      id: 2,
+      image: "./assets/contact-icon-2.png",
+      title: "Our Address",
+      desc: "Emirates Towers, Level 42 Dubai, United Arab Emirates",
+      link: "https://www.google.co.in/maps/search/Emirates+Towers,+Level+42+Dubai,+United+Arab+Emirates/@25.2174757,55.2800645,17.1z?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D",
+    },
     {
       id: 3,
       image: "./assets/contact-icon-3.png",
@@ -38,7 +40,7 @@ const ContactFooter = () => {
                 {item.title}
               </h2>
               <p className="family-montserrat text-lg text-gray-600">
-                <a href={item.link} className="hover:underline">
+                <a href={item.link} className="hover:underline" target="_blank">
                   {item.desc}
                 </a>
               </p>
