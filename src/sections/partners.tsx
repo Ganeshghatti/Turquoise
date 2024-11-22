@@ -6,6 +6,7 @@ const PartnersItems = [
     '/assets/partner(2).jpeg',
     '/assets/partner(3).jpeg',
     '/assets/partner(4).jpeg',
+    '/assets/partner(5).jpeg',
 
 ]
 
@@ -27,7 +28,7 @@ const Partners = () => {
 function Card({link}) {
   return (
     
-      <div className="h-[12rem] w-[49%] md:w-[24%]  flex flex-row items-center justify-center">
+      <div className=" w-[49%] md:w-[19%]  flex flex-row items-center justify-center">
           <img src={link} className=" w-full object-cover" />
     
       
