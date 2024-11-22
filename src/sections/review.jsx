@@ -8,7 +8,7 @@ const Reviews = () => {
   return (
     <div className="w-full py-32">
       <div className="mx-auto w-full md:w-4/5">
-        <Heading title={"Our Partners"} className={"px-2 text-center"} />
+        <Heading title={"Testimonials"} className={"px-2 text-center"} />
         <ReviewCarousel />
       </div>
     </div>
@@ -79,7 +79,7 @@ const ReviewCarousel = () => {
   };
 
   return (
-    <div className="embla overflow-hidden" ref={emblaRef}>
+    <div className="embla overflow-hidden py-14" ref={emblaRef}>
       <div className="embla__container flex  ">
         {reviews.map((review, index) => (
           <div
@@ -87,7 +87,7 @@ const ReviewCarousel = () => {
             className="embla__slide flex-grow-0 flex-shrink-0 w-[calc(100%/3)] min-w-[300px] md:max-w-[calc(100%/2-12px)] lg:max-w-[calc(100%/3-12px)] ml-4 px-2 md:px-0"
           >
             <div
-              className="w-full p-8 border border-gray-100 rounded-3xl bg-[#f8f8f8]    ">
+              className="w-full p-8 border border-gray-100 rounded-3xl bg-[#f5ffff]    ">
               <div className="flex gap-4">
                 <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/12.jpg" alt="user avatar" width="400" height="400" loading="lazy" />
                 <div>
