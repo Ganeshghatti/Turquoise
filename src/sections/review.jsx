@@ -6,7 +6,7 @@ import { Heading } from '../components';
 
 const Reviews = () => {
   return (
-    <div className="w-full py-32">
+    <div className="w-full py-24">
       <div className="mx-auto w-full md:w-4/5">
         <Heading title={"Testimonials"} className={"px-2 text-center"} />
         <ReviewCarousel />

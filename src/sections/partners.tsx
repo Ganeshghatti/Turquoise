@@ -12,7 +12,7 @@ const PartnersItems = [
 
 const Partners = () => {
   return (
-    <div className="w-full py-32">
+    <div className="w-full py-24">
       <div className="mx-auto w-full md:w-4/5">
         <Heading title={"Our Partners"} className={"px-2 text-center"} />
         <div className="flex overflow-hidden flex-row gap-1  w-full flex-wrap  items-center justify-between px-5 py-10 md:px-0">

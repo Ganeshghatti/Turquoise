@@ -8,7 +8,7 @@ const Services = () => {
       <div className="mx-auto w-full md:w-4/5">
         <Heading
           title={"Our Services"}
-          className={"px-2 text-center md:text-left"}
+          className={"px-2 text-center"}
         />
         <div className="flex flex-wrap items-center justify-between px-5 py-10 md:px-0 w-full">
           {CardItems.map((item, index) => (
