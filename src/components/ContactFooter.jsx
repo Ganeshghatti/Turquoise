@@ -14,7 +14,7 @@ const ContactFooter = () => {
       id: 2,
       image: "./assets/contact-icon-2.png",
       title: "Our Address",
-      desc: "Emirates Towers, Level 42 Dubai, United Arab Emirates",
+      desc: "Business Bay, Dubai- UAE",
       link: "https://www.google.co.in/maps/search/Emirates+Towers,+Level+42+Dubai,+United+Arab+Emirates/@25.2174757,55.2800645,17.1z?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D",
     },
     {
